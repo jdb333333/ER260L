@@ -1,0 +1,655 @@
+---- jdb Matches (657 in 48 files) ----
+aER260L_EN.build_log.htm (GIADA3000U\obj_STMF103) line 8 : License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+aER260L_EN_GPRS.build_log.htm (GIADA3000U\obj_STMF103) line 8 : License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+aER520UK_EN_DOTP.build_log.htm (GIADA3000U\obj_STMF103) line 8 : License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+aER520UK_EN_DOTP.build_log.htm (GIADA3000U\obj_STMF103) line 42 :   	unsigned char udata;//jdb2018-08-16 ???沾???
+aER520UK_EN_DOTP.build_log.htm (GIADA3000U\obj_STMF103) line 106 :   	unsigned char udata;//jdb2018-08-16 ???沾???
+aER520UK_EN_DOTP.build_log.htm (GIADA3000U\obj_STMF103) line 197 :   				TcpRecordToHost('R',type,sBuffer, size); //jdb2018-06-20 ??印前发??????
+appl.h (ER260_China\EOSCLCD) line 5 : //jdb2018-03-26
+appl.h (ER260_China\EOSCLCD) line 265 : //jdb2018-06-11
+appl.h (ER260_China\EOSCLCD) line 289 : //jdb2018-06-11
+appl.h (ER260_China\EOSCLCD) line 316 : //jdb2018-03-19
+appl.h (ER260_China\EOSCLCD) line 433 : //jdb2018-03-08
+appl.h (ER260_China\EOSCLCD) line 436 : //jdb2018-03-19
+appl.h (ER260_China\EOSCLCD) line 438 : //jdb2018-04-24 增加零税销售
+appl.h (ER260_China\EOSCLCD) line 549 :     #else //jdb2018-04-17 WISE-158D
+appl.h (ER260_China\EOSCLCD) line 729 :     #else //jdb2018-04-17 WISE-158D
+appl.h (ER260_China\EOSCLCD) line 816 : #define tCOST   4 //jdb2018-04-27 3-->4
+appl.h (ER260_China\EOSCLCD) line 819 : #define taxNumber			8 	    //jdb2018-03-24
+appl.h (ER260_China\EOSCLCD) line 874 : #define offNumber			(50)//jdb2018-06-27	    /* number of OFF */
+appl.h (ER260_China\EOSCLCD) line 970 : #define pluInvSize			5	//jdb2018-06-22 库存最大值 4 【999999】
+appl.h (ER260_China\EOSCLCD) line 1072 : //jdb2018-03-20
+appl.h (ER260_China\EOSCLCD) line 1223 : #else //jdb2018-03-28
+appl.h (ER260_China\EOSCLCD) line 1282 : 	#if 0 //jdb2018-06-13 不需要当前收款员报表
+appl.h (ER260_China\EOSCLCD) line 1286 : 	REPID_CLERKDAILY,//jdb2018-07-27 需要收款员日报表
+appl.h (ER260_China\EOSCLCD) line 1288 :     #if 0 //jdb2018-06-13 不需要周报表
+appl.h (ER260_China\EOSCLCD) line 1292 :     #if 0 //jdb2018-06-13 不需要桌账报表
+appl.h (ER260_China\EOSCLCD) line 1297 :     #if 0 //jdb2018-06-13 不需要周报表
+appl.h (ER260_China\EOSCLCD) line 1316 :     #if 0 //jdb2018-06-13 不需要周报表
+appl.h (ER260_China\EOSCLCD) line 1320 :     #if 0 //jdb2018-06-13 不需要桌账报表
+appl.h (ER260_China\EOSCLCD) line 1324 :     #if 0 //jdb2018-06-13 不需要当前收款员报表
+appl.h (ER260_China\EOSCLCD) line 1328 : 	ItemXZ_CLERKDAILY, //jdb2018-07-27需要收款员日报表
+TRANSRECORD in appl.h (ER260_China\EOSCLCD) : 	BYTE NoVat; //jdb2018-04-08 免税=0x01
+TRANSRECORD in appl.h (ER260_China\EOSCLCD) : 	//BCD OffAmt; //jdb2018-08-02 记录特殊出价减去的金额
+CLERKRECORD in appl.h (ER260_China\EOSCLCD) : 	BYTE Options2;//jdb2018-05-05 增加标识
+appl.h (ER260_China\EOSCLCD) line 2493 : #else //jdb2018-03-26 增加到40行
+APPLICATION in appl.h (ER260_China\EOSCLCD) :     BYTE SHOPNAME[32]; //jdb2018-07-12 增加商铺名称
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		ReturnNumber[RETNUM],//jdb2018-07-26 增加退货单号计数
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		ZReceiptNumber[RECNUM];//jdb2018-07-26-7记录Z报表打印时的票据单号
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		SCPWDDiscFlag,  //jdb2018-08-02 BIT0  标记为SC PWD 折扣
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	struct RECEPTITEMS  NoVatRGItems;        //jdb2018-04-08 免税销售项目
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		//jdb2018-03-09
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) :         LastVatExempt, //jdb2018-06-14 保存上次的vat exempt 值
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		//jdb2018-05-03 增加零税销售总额
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		ENDBALANCE,//jdb2018-07-26 增加ending balance value
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 		REFECRNUM,//jdb2018-07-26 REF#退货票据号
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : //jdb2018-03-22
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	BufCG; //jdb2018-03-28 清GRAND标志
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	FNetAmt; //jdb2018-03-28 保存净销售额标志
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	FReVat; //jdb2018-04-12 退货免税标志
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	FZV; //jdb2018-04-24 BIT3增加零销售和免税标志 BIT1 免税 BIT2 零销售 BIT5 特殊出价免税
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	FONP; //jdb2018-04-24 增加打印OLD GRAND TOTAL 和 NEW GRAND TOTAL标志 0x0 打印 0x1 不打印
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	WORD    SPluNumber; //jdb2018-06-20 保存上传的plu数
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	FREP; //jdb2018-07-03 报表标志 BIT1 GRANDTOTAL
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE 	ECRRGFLAG;//jdb2018-07-26 BIT0 退货标志       BIT1打印ENDING BALANCE BIT2打印上一次Z报表票据号
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	BYTE  	INPUTFUN; //jdb2018-07-12 输入功能 
+{anonAPPLICATION_SAVE} in appl.h (ER260_China\EOSCLCD) : 	unsigned long LNumberEntry;//jdb2018-07-27 无符号长整型
+Buffer.c (ER260_China\EOSCLCD) line 23 : 	BCD DiscAmt; //jdb2018-07-03 保存ApplVar.DiscAmt
+Buffer.c (ER260_China\EOSCLCD) line 75 : 						//jdb2018-07-03 有特殊出价，ApplVar.Amt 需减去 ApplVar.DiscAmt
+Buffer.c (ER260_China\EOSCLCD) line 81 : 						//jdb2018-07-03 加入折扣报表
+Buffer.c (ER260_China\EOSCLCD) line 104 : 			//jdb2018-08-09 销售时SC PWD折扣没有加入单品，部类报表,取消时也不用计算
+Buffer.c (ER260_China\EOSCLCD) line 110 : 				//jdb2018-08-09 销售时SC PWD折扣没有加入单品，部类报表,取消时也不用计算
+Buffer.c (ER260_China\EOSCLCD) line 166 : 	BCD DiscAmt, Amt; //jdb2018-07-03 保存ApplVar.DiscAmt, ApplVar.Amt
+Buffer.c (ER260_China\EOSCLCD) line 353 : 					{ //jdb2018-07-03 ApplVar.Amt 减去特殊出价
+Buffer.c (ER260_China\EOSCLCD) line 355 : 						SETBIT(ApplVar.FZV, BIT5); //jdb2018-07-03 不加入折扣报表标志
+Buffer.c (ER260_China\EOSCLCD) line 414 : 						if(ApplVar.RGRec.Key.Code == DISC_SCSUB_PERDEC || //jdb2018-08-09标记为SC PWD折扣
+Buffer.c (ER260_China\EOSCLCD) line 424 : 						if(ApplVar.RGRec.Key.Code == DISC_SCSUB_PERDEC || //jdb2018-08-09SC PWD折扣标记清零
+Buffer.c (ER260_China\EOSCLCD) line 428 : 							CalculateScPwdDisc(1);//jdb2018-08-09 SC PWD折扣加入了PLU DEPT报表，取消时报表计算PLU DEPT
+Buffer.c (ER260_China\EOSCLCD) line 881 : //jdb2018-04-11 计算免税额度
+Buffer.c (ER260_China\EOSCLCD) line 891 : 	BCD matchqty, soldqty, freeqty, offamt;//jdb2018-08-09 计算特殊出价
+Buffer.c (ER260_China\EOSCLCD) line 914 : 		if (TESTBIT(ApplVar.MyFlags,PLUPACK))//jdb2018-08-09 特殊打包出价情况
+Buffer.c (ER260_China\EOSCLCD) line 935 : 		else if(TESTBIT(ApplVar.MyFlags,PLUDISC))//jdb2018-08-09 特殊出价折扣出价情况
+Buffer.c (ER260_China\EOSCLCD) line 979 : 				//jdb2018-04-10
+Buffer.c (ER260_China\EOSCLCD) line 985 : 				//jdb2018-07-02 取消，退货操作，先减去特殊出价，再计算免税额
+Buffer.c (ER260_China\EOSCLCD) line 987 : 					Add(&Amt, &offamt);//jdb2018-08-09 减去特殊出价
+Buffer.c (ER260_China\EOSCLCD) line 990 : 					SETBIT(ApplVar.FZV, BIT5); //jdb2018-07-03 不加入折扣报表标志
+Buffer.c (ER260_China\EOSCLCD) line 1017 : //jdb2018-04-11 5 取消交易
+Buffer.c (ER260_China\EOSCLCD) line 1058 : //jdb2018-04-09
+Buffer.c (ER260_China\EOSCLCD) line 1074 : 	BCD matchqty, soldqty, freeqty, offamt;//jdb2018-08-09 计算特殊出价
+Buffer.c (ER260_China\EOSCLCD) line 1081 : 	//jdb2018-04-10 记录最后一次销售免税额
+Buffer.c (ER260_China\EOSCLCD) line 1101 : 		if (TESTBIT(ApplVar.MyFlags,PLUPACK))//jdb2018-08-09 特殊打包出价情况
+Buffer.c (ER260_China\EOSCLCD) line 1122 : 		else if(TESTBIT(ApplVar.MyFlags,PLUDISC))//jdb2018-08-09 特殊出价折扣出价情况
+Buffer.c (ER260_China\EOSCLCD) line 1166 : 				//jdb2018-04-10
+Buffer.c (ER260_China\EOSCLCD) line 1172 : 				//jdb2018-07-02 取消，退货操作，先减去特殊出价，再计算免税额
+Buffer.c (ER260_China\EOSCLCD) line 1174 : 					Add(&Amt, &offamt);//jdb2018-08-09 减去特殊出价
+Buffer.c (ER260_China\EOSCLCD) line 1177 : 					SETBIT(ApplVar.FZV, BIT5); //jdb2018-07-03 不加入折扣报表标志
+Buffer.c (ER260_China\EOSCLCD) line 1214 : 				if(type == 5)//jdb2018-08-09 有记录返回序号
+Buffer.c (ER260_China\EOSCLCD) line 1290 : 					//jdb2018-04-10
+Buffer.c (ER260_China\EOSCLCD) line 1296 : 					//jdb2018-07-02 取消，退货操作，先减去特殊出价，再计算免税额
+Buffer.c (ER260_China\EOSCLCD) line 1298 : 					SETBIT(ApplVar.FZV, BIT5); //jdb2018-07-03 不加入折扣报表标志
+Buffer.c (ER260_China\EOSCLCD) line 1339 : 	if(type == 5)//jdb2018-08-09 没有记录返回-1
+Buffer.c (ER260_China\EOSCLCD) line 1353 : /* if ApplVar.BufCmd = 5 no vat*/ //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1360 : 	struct TRANSRECORD  TmpRGRec; //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1376 : 			if (ApplVar.RGItems.RGBuf[i].Key.Code > DEPT && ApplVar.BufCmd == 5)  //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1386 : 		    	if(ApplVar.RGRec.Key.Code > DEPT && ApplVar.RGRec.NoVat == 0x01){ //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1424 : 						TmpRGRec = ApplVar.RGItems.RGBuf[i]; //jdb2018-04-09
+Buffer.c (ER260_China\EOSCLCD) line 1425 : 						TmpRGRec.Qty = TmpQty; //jdb2018-04-09
+Buffer.c (ER260_China\EOSCLCD) line 1456 :                     	if(ApplVar.RGRec.NoVat == 0x01) //jdb2018-04-09
+Buffer.c (ER260_China\EOSCLCD) line 1467 : 						//jdb2018-04-09
+Buffer.c (ER260_China\EOSCLCD) line 1501 : 	if(ApplVar.BufCmd == 5) //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1518 : 		#else //jdb2018-04-08
+Buffer.c (ER260_China\EOSCLCD) line 1533 : 	if(ApplVar.RGRec.Key.Code > DEPT && ApplVar.RGRec.NoVat == 0x01){ //jdb2018-04-08
+CH395.C (NET_CH395) line 58 : UINT8  SMyBuffer[512];                                           /* 发送数据缓冲区 */ //jdb2018-04-20
+CH395.C (NET_CH395) line 59 : unsigned int buflen, sbuflen = 0;				//jdb2018-04-02 缓冲区有效数据长度
+CH395.C (NET_CH395) line 63 : struct _SOCK_INF  UDPSockInf;         //jdb2018-05-24                             /* 保存UDPSocket信息 */
+CH395.C (NET_CH395) line 67 : UINT8 CH395IPAddr[4] = {192,168,99,222};//{192,168,111,100};                         /* CH395IP地址 *///jdb2018-05-03
+CH395.C (NET_CH395) line 75 : const UINT8  BroadcastIP[4] = {255,255,255,255};                   //jdb2018-05-24  /* UDP 广播地址 */
+CH395.C (NET_CH395) line 92 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 112 : //jdb2018-03-16
+CH395.C (NET_CH395) line 119 : 	//jdb2018-05-03 IP地址可配置
+CH395.C (NET_CH395) line 149 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 155 : 		//jdb2018-05-24   UDP模式
+CH395.C (NET_CH395) line 174 : 	//jdb2018-05-24  UDP模式
+CH395.C (NET_CH395) line 201 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 247 : 	 //return; //jdb2018-04-22 调整为查询方式
+CH395.C (NET_CH395) line 249 : 	 //if(sockindex != 1){ //jdb2018-04-20
+CH395.C (NET_CH395) line 254 : 	#if 1 //jdb2018-04-22 调整为查询方式
+CH395.C (NET_CH395) line 261 : 	   		//CH395SendData(sockindex,SMyBuffer,sbuflen); //jdb2018-04-20
+CH395.C (NET_CH395) line 270 : 	   sbuflen = 0; //jdb2018-04-20
+CH395.C (NET_CH395) line 283 : 	   buflen = len; //jdb2018-04-02
+CH395.C (NET_CH395) line 284 : 	   #if 1 //jdb2018-04-02
+CH395.C (NET_CH395) line 301 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 321 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 341 : 		//jdb2018-03-16
+CH395.C (NET_CH395) line 362 : //jdb2018-04-02
+CH395.C (NET_CH395) line 387 : //jdb2018-04-02
+CH395.C (NET_CH395) line 401 : //jdb2018-04-02
+CH395.C (NET_CH395) line 497 :     //CH395SetStartPara(FUN_PARA_FLAG_LOW_PWR|SOCK_DISABLE_SEND_OK_INT); //jdb2018-05-16/* CH395进入低能耗模式,屏蔽SINT_STAT_SEND_OK中断*/
+CH395.C (NET_CH395) line 504 : //jdb2018-03-16
+CH395.C (NET_CH395) line 515 : //jdb2018-03-16
+CH395.C (NET_CH395) line 523 : 	//CH395CMDSetPHY(PHY_10M_FLL); //jdb2018-04-23 10M全双工模式
+CH395.C (NET_CH395) line 528 : 	//jdb2018-03-16
+CH395.C (NET_CH395) line 545 : 	//jdb2018-03-16
+Chinaapp.c (ER260_China\EOSCLCD) line 50 : #else //jdb2018-07-04 WISE158机器型号
+Chinaapp.c (ER260_China\EOSCLCD) line 239 : 	#else //jdb2018-03-19
+Chinaapp.c (ER260_China\EOSCLCD) line 250 : 	#else //jdb2018-04-17 WISE-158D
+Chinaapp.c (ER260_China\EOSCLCD) line 360 :     	//jdb2018-07-27 需要收款员日报表
+Chinaapp.c (ER260_China\EOSCLCD) line 382 :         #if 0 //jdb2018-06-13 不需要当前收款员报表
+Chinaapp.c (ER260_China\EOSCLCD) line 429 :         #if 0 //jdb2018-06-13 不需要周报表
+Chinaapp.c (ER260_China\EOSCLCD) line 460 :         #if 0 //jdb2018-06-13 不需要桌账报表
+Chinaapp.c (ER260_China\EOSCLCD) line 501 :         #if 0 //jdb2018-06-13 不需要周报表
+Chinaapp.c (ER260_China\EOSCLCD) line 616 : 		    //{0x03, 	(toCC+toQTY+toAMT+toRET+toDISC+toCOST+1), toCC, toQTY, toAMT, toRET, toDISC, toCOST},  //jdb2018-04-02
+Chinaapp.c (ER260_China\EOSCLCD) line 618 : 		    //{0x01, 	(toCC+toQTY+toAMT+toRET+toDISC+toCOST+1), toCC, toQTY, toAMT, toRET, toDISC, toCOST},   //jdb2018-04-02
+Chinaapp.c (ER260_China\EOSCLCD) line 879 :      { //jdb2018-07-12 默认商铺名
+Chinaapp.c (ER260_China\EOSCLCD) line 913 : 		//jdb2018-03-20
+Chinaapp.c (ER260_China\EOSCLCD) line 965 : 		//jdb2018-04-18
+Chinaapp.c (ER260_China\EOSCLCD) line 980 : 		ClerkRec1, 0xff,{0,0,0},0x0,                //jdb2018-05-05 增加Options2
+Chinaapp.c (ER260_China\EOSCLCD) line 1065 : 		#if 0 //jdb2018-06-13 客户要求去掉周报表
+Chinaapp.c (ER260_China\EOSCLCD) line 1069 : 		#if 0 //jdb2018-06-13 不需要桌账报表
+Chinaapp.c (ER260_China\EOSCLCD) line 1073 : 		#if 0 //jdb2018-06-13 不需要当前收款员报表
+Chinaapp.c (ER260_China\EOSCLCD) line 1077 : 		{REPID_CLERKDAILY+1,    XZReportList6},//jdb2018-07-27 需要收款员日报表
+Chinaapp.c (ER260_China\EOSCLCD) line 1079 : 		#if 0 //jdb2018-06-13 不需要周报表
+Chinaapp.c (ER260_China\EOSCLCD) line 1289 : 			#else //jdb2018-04-17   WISE-158D
+Chinaapp.c (ER260_China\EOSCLCD) line 1363 :     #else //jdb2018-04-17 WISE-158D
+Chinaapp.c (ER260_China\EOSCLCD) line 1455 : //jdb2018-03-08
+CHNInput.c (ER260_China\EOSCLCD) line 1262 : 		case 0x2d: //jdb2018-04-04 00键
+CHNMess.c (ER260_China\EOSCLCD) line 1098 :             cVIPLESSVAT[]=VIPLESSVAT,//jdb2018-03-08
+CHNMess.c (ER260_China\EOSCLCD) line 1099 :             cVIPDISC[]=VIPDISC,//jdb2018-03-08
+CHNMess.h (ER260_China\EOSCLCD) line 811 : #else //jdb2018-06-20 修改为4个报表
+CHNMess.h (ER260_China\EOSCLCD) line 839 : #define eCARREMAIN		(XZTITLE1+XZITEMSMAX-1)     //jdb2018-06-20
+CHNMess.h (ER260_China\EOSCLCD) line 1164 : 		cVIPLESSVAT[],//jdb2018-03-08
+CHNMess.h (ER260_China\EOSCLCD) line 1165 : 		cVIPDISC[],//jdb2018-03-08
+Computer.c (ER260_China\EOSCLCD) line 16 : //jdb2018-04-20
+SendRecord in Computer.c (ER260_China\EOSCLCD) : 	unsigned char udata;//jdb2018-08-16 接收串口数据
+SendRecord in Computer.c (ER260_China\EOSCLCD) : 			#else//jdb2018-08-16 直接读取串口数据
+SendRecord in Computer.c (ER260_China\EOSCLCD) : 		//SendComm(COMPUTER_1, ACK);//jdb2018-08-16
+SendRecord in Computer.c (ER260_China\EOSCLCD) : 		#else//jdb2018-08-16 直接读取串口数据
+Computer.c (ER260_China\EOSCLCD) line 202 : //jdb2018-04-02
+Computer.c (ER260_China\EOSCLCD) line 212 : #define GINT_STAT_SOCK0                           (1<<4)             //jdb2018-05-24    
+Computer.c (ER260_China\EOSCLCD) line 213 : #define SINT_STAT_RECV                            (1<<2)            //jdb2018-05-24            /* socket端口接收到数据或者接收缓冲区不为空 *//* socket0 产生中断 */
+RFH in Computer.c (ER260_China\EOSCLCD) : 	//jdb2018-05-24 UDP SOCKET 0
+RFH in Computer.c (ER260_China\EOSCLCD) : 			ApplVar.IP.IPAddress[2], ApplVar.IP.IPAddress[3], ApplVar.AP.SHOPNAME, ApplVar.AP.Flag[0x0f]); //jdb2018-07-12 增加商铺名 和收款机编号
+RFH in Computer.c (ER260_China\EOSCLCD) : 			macaddr[0], macaddr[1], macaddr[2], macaddr[3], macaddr[4], macaddr[5]); //jdb2018-07-12 增加商铺名 和收款机编号
+RFH in Computer.c (ER260_China\EOSCLCD) : 	if(sock_int_socket & SINT_STAT_CONNECT) //jdb2018-06-20 连接中断
+RFH in Computer.c (ER260_China\EOSCLCD) : 	if(sock_int_socket & SINT_STAT_RECV){ //jdb2018-06-04
+UART_Computer in Computer.c (ER260_China\EOSCLCD) : 	unsigned char udata;//jdb2018-08-16 接收串口数据
+UART_Computer in Computer.c (ER260_China\EOSCLCD) : 					//if(UARTGet(COMPUTER_1+1,&udata,100))//jdb2018-08-16 获取一个串口数据
+UART_Computer in Computer.c (ER260_China\EOSCLCD) : 						//bcc = udata & 0xff;//jdb2018-08-16 串口数据
+UART_Computer in Computer.c (ER260_China\EOSCLCD) : 						if(bcc != SOH)//jdb2018-08-16 测试用
+Computer.c (ER260_China\EOSCLCD) line 568 : #else //jdb2018-04-02
+TCP_DecodeRecord in Computer.c (ER260_China\EOSCLCD) :                         || *data==0x5A //jdb2018-05-08 获取报表数据'Z'
+TCP_DecodeRecord in Computer.c (ER260_China\EOSCLCD) : 						|| *data==0x50 //jdb2018-05-29 获取PLU总数'P'
+TCP_DecodeRecord in Computer.c (ER260_China\EOSCLCD) : 						|| *data==0x52 //jdb2018-06-04 打印控制'R'
+ProcessRecord in Computer.c (ER260_China\EOSCLCD) : 							#if 0//jdb2018-08-16 测试用
+Computer.c (ER260_China\EOSCLCD) line 2022 : //jdb2018-04-19
+Computer.c (ER260_China\EOSCLCD) line 2048 : #define POINTERMAX 2 //jdb2018-05-16
+TcpReadZport in Computer.c (ER260_China\EOSCLCD) : 		//if(!TESTBIT(ApplVar.Total.Qty.Sign, BIT2))//jdb2018-05-22 数据为零不上传
+TcpPluReadZport in Computer.c (ER260_China\EOSCLCD) : 		//if(!TESTBIT(ApplVar.Total.Qty.Sign, BIT2))//jdb2018-05-22 数据为零不上传
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 	char sBuffer[1024]; //jdb2018-05-16
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     unsigned long nextOff; //jdb2018-05-15 下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     BYTE currentvalue, zidx; //jdb2018-06-04
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     WORD plucount; //jdb2018-06-13
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     WORD savelockstate; //jdb2018-07-27 保存当前ECR钥匙档
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     short     flowid;//jdb2018-07-18 流水号
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :     union  FLOWREC	 *FlowBuff;//jdb2018-07-18 流水指针
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					//jdb2018-06-11 start 9~40行
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					//jdb2018-06-11 end
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					//jdb2018-06-11 start 7~40行
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					//jdb2018-06-11 end
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					//jdb2018-07-18 流水加入信息
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 		case 'P': //jdb2018-05-29 
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 		case 'R': //jdb2018-06-04
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 			if(*(hostString + 1) <= 0x09) //jdb2018-06-04 Z-print
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 				TcpRecordToHost('R',type,sBuffer, size); //jdb2018-06-20 打印前发送命令
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 				savelockstate = ApplVar.CentralLock;//jdb2018-07-27 保存钥匙档
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 				ApplVar.CentralLock = ZZ;//jdb2018-07-27 打印票据区间
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 				ApplVar.ReportNumber = zidx;//jdb2018-07-27
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :             //jdb2018-05-08 获取Z报表
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 				if(*(hostString + 2) == 0x80) //jdb2018-05-22 PLU
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 							//jdb2018-07-01 报表增加barcode项
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) : 					if(plucount > 0) //jdb2018-06-20 有PLU数据
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x01) //jdb2018-05-11 GRANDTOTAL
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                         //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x02) //jdb2018-05-11 DEPART
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                         //jdb2018-05-14 读取部类名字
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x04) //jdb2018-05-11 TENDER
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x08) //jdb2018-05-11 DRAWER
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x10) //jdb2018-05-11 CORRECT
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x20) //jdb2018-05-11 DISC
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                 else if(*(hostString + 2) == 0x40) //jdb2018-05-11 TAX
+TcpProcessRecord in Computer.c (ER260_China\EOSCLCD) :                             //jdb2018-05-15 跳向下一个地址
+Correc.c (ER260_China\EOSCLCD) line 322 : 				SETBIT(ApplVar.ECRRGFLAG, BIT0);//jdb2018-07-26 退货标志置一
+Correc.c (ER260_China\EOSCLCD) line 353 : 		ProBuf2(5); //jdb2018-04-11
+Depart.c (ER260_China\EOSCLCD) line 143 : 	BCD sVal1, sVal2, sVal3; //jdb2018-04-10
+Depart.c (ER260_China\EOSCLCD) line 147 : 	if (ApplVar.FVoid || ApplVar.FCorr) //jdb2018-05-02 为取消更正交易
+Depart.c (ER260_China\EOSCLCD) line 181 : 			ApplVar.LastNetVatAmt = ZERO; //jdb2018-04-12 没按取消上一笔交易 为正常销售
+Depart.c (ER260_China\EOSCLCD) line 298 : 			ApplVar.LastNetVatAmt = ZERO; //jdb2018-04-12
+Depart.c (ER260_China\EOSCLCD) line 323 : 	if(ApplVar.FRefund == 1){ //jdb2018-04-12 退货免税标志
+Depart.c (ER260_China\EOSCLCD) line 591 : 		//SaveAmt = ApplVar.Amt; //jdb2018-04-10
+Depart.c (ER260_China\EOSCLCD) line 592 : 		if(CheckNotZero(&ApplVar.NetVatAmt)){ //jdb2018-04-08
+Depart.c (ER260_China\EOSCLCD) line 595 : 		if(ApplVar.FVoid && CheckNotZero(&ApplVar.LastNetVatAmt)){ //jdb2018-04-10 免税后，VOID操作
+Depart.c (ER260_China\EOSCLCD) line 633 : 		ApplVar.Cost = ZERO;//jdb2018-06-07 GRAND TOTAL 去掉COST
+Depart.c (ER260_China\EOSCLCD) line 673 : 		if(CheckNotZero(&ApplVar.NetVatAmt) || (ApplVar.FVoid && CheckNotZero(&ApplVar.LastNetVatAmt))){ //jdb2018-04-08
+Depart.c (ER260_China\EOSCLCD) line 695 :     	ApplVar.LastNetVatAmt = ZERO; //jdb2018-04-10
+Depart.c (ER260_China\EOSCLCD) line 697 : 	//ApplVar.Amt = SaveAmt; //jdb2018-04-10
+Discount.c (ER260_China\EOSCLCD) line 20 : 	SETBIT(ApplVar.FREP, BIT5); //jdb2018-07-03 增加折扣报表标志
+Discount.c (ER260_China\EOSCLCD) line 28 : 	RESETBIT(ApplVar.FREP, BIT5); //jdb2018-07-03 复位折扣报表标志
+Discount.c (ER260_China\EOSCLCD) line 62 : //jdb2018-08-09 SC PWD小计后折扣计算
+Discount.c (ER260_China\EOSCLCD) line 112 : 				if (TESTBIT(ApplVar.MyFlags,PLUPACK))//jdb2018-08-02 特殊打包出价情况
+Discount.c (ER260_China\EOSCLCD) line 132 : 				else if(TESTBIT(ApplVar.MyFlags,PLUDISC))//jdb2018-08-02 特殊出价折扣出价情况
+Discount.c (ER260_China\EOSCLCD) line 237 : 	BCD matchqty, soldqty, freeqty, offamt;//jdb2018-08-02 计算特殊出价
+Discount.c (ER260_China\EOSCLCD) line 242 : 	BYTE deptnum[256] = {0}; //jdb2018-06-15 同一种税率只计算一次小计折扣
+Discount.c (ER260_China\EOSCLCD) line 271 : 			//jdb2018-08-02 特殊出价相关参数清零
+Discount.c (ER260_China\EOSCLCD) line 283 : 					if (TESTBIT(ApplVar.MyFlags,PLUPACK))//jdb2018-08-02 特殊打包出价情况
+Discount.c (ER260_China\EOSCLCD) line 304 : 					else if(TESTBIT(ApplVar.MyFlags,PLUDISC))//jdb2018-08-02 特殊出价折扣出价情况
+Discount.c (ER260_China\EOSCLCD) line 333 : 				Add(&ApplVar.SUB_DiscTot, &offamt);//jdb2018-08-02 减去特殊出价优惠的价格
+Discount.c (ER260_China\EOSCLCD) line 344 : 		//Divide(&sDiscVal,&ApplVar.SubTotal);//jdb2018-08-02 计算百分比
+Discount.c (ER260_China\EOSCLCD) line 354 : 			//jdb2018-08-02 特殊出价相关参数清零
+Discount.c (ER260_China\EOSCLCD) line 368 : 				if (TESTBIT(ApplVar.MyFlags,PLUPACK))//jdb2018-08-02 特殊打包出价情况
+Discount.c (ER260_China\EOSCLCD) line 389 : 				else if(TESTBIT(ApplVar.MyFlags,PLUDISC))//jdb2018-08-02 特殊出价折扣出价情况
+Discount.c (ER260_China\EOSCLCD) line 407 : 				if(deptnum[ApplVar.Dept.Tax] != 0x01) //jdb2018-06-15 0x0 表示没有计算过 0x01 表示计算过
+Discount.c (ER260_China\EOSCLCD) line 409 : 				subtaxflag = 0x0; //jdb2018-06-15 相同税率小计折扣只计算一次
+Discount.c (ER260_China\EOSCLCD) line 416 : 					if(subtaxflag == 0x0) //jdb2018-06-08 小计折扣减税只计算一次
+Discount.c (ER260_China\EOSCLCD) line 427 : 						if(subtaxflag == 0x0) //jdb2018-06-08 小计折扣减税只计算一次
+Discount.c (ER260_China\EOSCLCD) line 470 : 					Add(&sAmt, &offamt);//jdb2018-08-02 减去特殊出价的优惠
+Discount.c (ER260_China\EOSCLCD) line 505 : 		//jdb2018-03-27
+Discount.c (ER260_China\EOSCLCD) line 527 : 			//jdb2018-03-21
+Discount.c (ER260_China\EOSCLCD) line 578 : 		//jdb2018-03-20
+Discount.c (ER260_China\EOSCLCD) line 579 : 		if(ApplVar.DiscNumber + 4 > ApplVar.AP.Disc.Number){ //jdb2018-03-20
+Discount.c (ER260_China\EOSCLCD) line 580 : 		#if ORRECEIPT //jdb2018-08-09 SI版本不需要免税也可以折扣
+Discount.c (ER260_China\EOSCLCD) line 587 : 			if(!(ApplVar.FSub || ApplVar.RGRec.Key.Code==SUB)){ //jdb2018-04-03  没有经过小计
+Discount.c (ER260_China\EOSCLCD) line 602 : 			if(ApplVar.DiscNumber + 4 < ApplVar.AP.Disc.Number){ //jdb2018-03-20
+Discount.c (ER260_China\EOSCLCD) line 865 : 			if(ApplVar.DiscNumber == 8 || ApplVar.DiscNumber == 9){ //jdb2018-04-28 SC PWD 不打印TOTAL
+Discount.c (ER260_China\EOSCLCD) line 883 : 	if(ApplVar.DiscNumber == 8){ //jdb2018-03-30 sc pwd 不限制长度
+Discount.c (ER260_China\EOSCLCD) line 884 : 		PrintLine('.'); //jdb2018-04-27 增加隔行
+Discount.c (ER260_China\EOSCLCD) line 886 : 		i = strlen(SCDISCNAME); //jdb2018-07-31
+Discount.c (ER260_China\EOSCLCD) line 889 : 		PrintLine('.'); //jdb2018-04-27 增加隔行
+Discount.c (ER260_China\EOSCLCD) line 891 : 		i = strlen(PWDDISCNAME);//jdb2018-07-31
+Discount.c (ER260_China\EOSCLCD) line 894 : 	//jdb2018-08-09 打印SC PWD名字
+Discount.c (ER260_China\EOSCLCD) line 913 : 		|| (ApplVar.DiscNumber == 8 || ApplVar.DiscNumber == 9)) //jdb2018-07-31 SC PWD显示折扣率
+Discount.c (ER260_China\EOSCLCD) line 931 : 	if(ApplVar.DiscNumber == 8 || ApplVar.DiscNumber == 9){ //jdb2018-04-03
+Discount.c (ER260_China\EOSCLCD) line 936 : 		//jdb2018-04-03
+Discount.c (ER260_China\EOSCLCD) line 946 : 		CalculateScPwdDisc(0);//jdb2018-08-09 计算单品，部类折扣
+Discount.c (ER260_China\EOSCLCD) line 960 : 			//jdb2018-03-21
+ECR_IAP.c (STM32F103Driver\USER) line 227 : 		//IAP_Send(length);//jdb2018-08-16发送长度测试用
+ECR_IAP.c (STM32F103Driver\USER) line 244 : 			//if(i < length)//jdb2018-08-16
+ECR_IAP.c (STM32F103Driver\USER) line 245 : 				//IAP_Send(sBuf);//jdb2018-08-16 返回接收的数据测试用
+ECR_IAP.c (STM32F103Driver\USER) line 285 : #if 0 //jdb2018-08-16 测试用
+exth.h (ER260_China\EOSCLCD) line 142 : extern  int StoreInBuffer2(BYTE type, struct TRANSRECORD  MyRGRec);//jdb2018-08-09
+exth.h (ER260_China\EOSCLCD) line 143 : extern  BCD CalculateNetTax(struct TRANSRECORD    MyRGRec);//jdb2018-08-09
+exth.h (ER260_China\EOSCLCD) line 207 : extern  void CalculateScPwdDisc(int sType);//jdb2018-08-09 SC PWD小计后折扣计算
+exth.h (ER260_China\EOSCLCD) line 844 : BYTE InputWord(BYTE x,BYTE y,unsigned int vMax);//jdb2018-07-27 支持无符号整型
+ExtModules.c (ER260_China\EOSCLCD) line 1563 : //jdb2018-03-09
+ExtModules.c (ER260_China\EOSCLCD) line 2879 : 	}else if(ListRecord.Number < HeaderMax){ //jdb2018-03-22 票尾支持到40行
+ExtModules.c (ER260_China\EOSCLCD) line 2888 : 	}else if(ListRecord.Number < TrailerMax){ //jdb2018-03-22 票尾支持到40行
+ExtModules.c (ER260_China\EOSCLCD) line 2890 : 		strcpy(ListRecord.Name,ApplVar.TXT.Trailer[ListRecord.Number]);//jdb2018-03-26
+ExtModules.c (ER260_China\EOSCLCD) line 3102 : 			if(sIdx == 0x0e) //jdb2018-07-12 显示商铺名
+ExtModules.c (ER260_China\EOSCLCD) line 3513 : BYTE InputWord(BYTE x,BYTE y, unsigned int vMax)//jdb2018-07-27 支持无符号整型
+ExtModules.c (ER260_China\EOSCLCD) line 3517 : 	BYTE AsciiKeyMode = 0x0; //jdb2018-07-16 0x0 小写 0x01 大写
+ExtModules.c (ER260_China\EOSCLCD) line 3533 : 			ApplVar.LNumberEntry = 0;//jdb2018-07-27 清零
+ExtModules.c (ER260_China\EOSCLCD) line 3550 : 			else if(TESTBIT(ApplVar.INPUTFUN, BIT2) && ApplVar.DecimalPoint == 0 && keyCode=='.'){//jdb2018-08-02 输入小数点
+ExtModules.c (ER260_China\EOSCLCD) line 3556 : 			else if(TESTBIT(ApplVar.INPUTFUN, BIT0)) //jdb2018-07-12 输入店铺名
+ExtModules.c (ER260_China\EOSCLCD) line 3561 : 					if (AsciiKeyMode==0x01 && keyCode>='a' && keyCode<='z') //jdb2018-07-16 输入大写ASC
+ExtModules.c (ER260_China\EOSCLCD) line 3572 : 			else if(TESTBIT(ApplVar.INPUTFUN, BIT1) //jdb2018-07-26 输入无符号整型，输入了回车键
+ExtModules.c (ER260_China\EOSCLCD) line 3573 : 				|| TESTBIT(ApplVar.INPUTFUN, BIT2)) //jdb2018-08-02 输入浮点数，输入了回车键
+ExtModules.c (ER260_China\EOSCLCD) line 3583 : 			if(TESTBIT(ApplVar.INPUTFUN, BIT0)) //jdb2018-07-12 输入店铺名 最大长度限制
+ExtModules.c (ER260_China\EOSCLCD) line 3590 : 			if(TESTBIT(ApplVar.INPUTFUN, BIT1)){//jdb2018-07-27 输入无符号整型
+ExtModules.c (ER260_China\EOSCLCD) line 3593 : 			}else if(TESTBIT(ApplVar.INPUTFUN, BIT2)){//jdb2018-08-02 浮点数无最大值限制
+Firmkey.c (ER260_China\EOSCLCD) line 164 : 		if(keyno == 0x2d) //jdb2018-04-08 修改00为DEL键
+Firmkey.c (ER260_China\EOSCLCD) line 169 : 		if(keyno == 0x31) //jdb2018-04-18 WISE158
+Firmkey.c (ER260_China\EOSCLCD) line 775 : #if (defined(TCPIP) || defined(CASE_GPRS) || defined(ISP_NET)) //jdb2018-05-03 加入ISP接口网络芯片
+Firmkey.c (ER260_China\EOSCLCD) line 777 :             //jdb2018-05-03
+Fiscal.c (ER260_China\EOSCLCD) line 21 : 		if(TESTBIT(ApplVar.ECRRGFLAG, BIT0)){//jdb2018-07-26 为退货票据
+Fiscal.c (ER260_China\EOSCLCD) line 37 : 	char *to = sp;//jdb2018-07-26
+Fiscal.c (ER260_China\EOSCLCD) line 43 : 	    {//jdb2018-07-26 增加RECNUMPRE
+Fiscal.c (ER260_China\EOSCLCD) line 47 : 	    	}else{//jdb2018-07-31 退货加入票据号前缀
+Fiscal.c (ER260_China\EOSCLCD) line 57 : 			l = RECNUM; //jdb2018-07-26
+Fiscal.c (ER260_China\EOSCLCD) line 62 : 			HEXtoASC(to + 1, ApplVar.ReturnNumber, l);//jdb2018-07-26 退货票据号
+Fiscal.c (ER260_China\EOSCLCD) line 63 : 		else if(TESTBIT(ApplVar.ECRRGFLAG, BIT2))//jdb2018-07-27 上一次Z报表记录的票据号
+Fixed.c (ER260_China\EOSCLCD) line 76 : 	if(TESTBIT(ApplVar.ECRRGFLAG, BIT0))//jdb2018-07-26 输入要退货的单号
+Fixed.c (ER260_China\EOSCLCD) line 285 : //jdb2018-03-08
+Fixed.c (ER260_China\EOSCLCD) line 635 : 	//jdb2018-03-19
+Fixed.c (ER260_China\EOSCLCD) line 637 : 		//if(ApplVar.FSub || ApplVar.RGRec.Key.Code==SUB || TESTBIT(ECRVIP.ECRVIPState, BIT4)){ 		//jdb2018-03-27
+Fixed.c (ER260_China\EOSCLCD) line 638 : 			//if(!CheckNotZero(&ApplVar.LessVatTotalAmt)) //jdb2018-04-03
+Fixed.c (ER260_China\EOSCLCD) line 640 : 		//ApplVar.FZV = 0x01; //jdb2018-04-24 增加标志位区分免税和零税
+Fixed.c (ER260_China\EOSCLCD) line 641 : 		SETBIT(ApplVar.FZV, BIT0);//jdb2018-04-24 增加标志位区分免税和零税
+Fixed.c (ER260_China\EOSCLCD) line 642 : 		SETBIT(ApplVar.FZV, BIT3);//jdb2018-05-02 增加按了免税或零税键标志
+Fixed.c (ER260_China\EOSCLCD) line 643 : 		}else{ //jdb2018-04-24 零税，一笔销售零税或免税只能存在一种情况
+Fixed.c (ER260_China\EOSCLCD) line 649 : 		if(CheckNotZero(&ApplVar.SaleAmt)){ //jdb2018-04-03
+Fixed.c (ER260_China\EOSCLCD) line 653 : 				DispSubTotal(); //jdb2018-03-27
+Fixed.c (ER260_China\EOSCLCD) line 654 : 				//jdb2018-04-08
+Fixed.c (ER260_China\EOSCLCD) line 661 : 	//jdb2018-04-24 零税销售
+Fixed.c (ER260_China\EOSCLCD) line 666 : 		SETBIT(ApplVar.FZV, BIT3);//jdb2018-05-02 增加按了免税或零税键标志
+Fixed.c (ER260_China\EOSCLCD) line 667 : 		}else{ //jdb2018-04-24 零税，一笔销售零税或免税只能存在一种情况
+Fixed.c (ER260_China\EOSCLCD) line 673 : 		if(CheckNotZero(&ApplVar.SaleAmt)){ //jdb2018-04-03
+Fixed.c (ER260_China\EOSCLCD) line 677 : 				DispSubTotal(); //jdb2018-03-27
+Fixed.c (ER260_China\EOSCLCD) line 678 : 				//jdb2018-04-08
+Flowbill.c (ER260_China\EOSCLCD) line 42 : void DispVAT(void);//jdb2018-07-19 免税显示函数
+Flowbill.c (ER260_China\EOSCLCD) line 43 : void DispZERO(void);//jdb2018-07-19 零税显示函数
+Flowbill.c (ER260_China\EOSCLCD) line 85 :     {sizeof(struct CDC_VAT),         &DispVAT},         //jdb2018-07-19 免税项
+Flowbill.c (ER260_China\EOSCLCD) line 86 :     {sizeof(struct CDC_ZERO),         &DispZERO},         //jdb2018-07-19 零税项
+Collect_Data in Flowbill.c (ER260_China\EOSCLCD) : 	case VATLOG://jdb2018-07-19 免税流水
+Collect_Data in Flowbill.c (ER260_China\EOSCLCD) : 	case ZEROLOG://jdb2018-07-19 零税流水
+Flowbill.c (ER260_China\EOSCLCD) line 1032 : //jdb2018-07-19 显示免税
+Flowbill.c (ER260_China\EOSCLCD) line 1045 : //jdb2018-07-19 显示零税
+LoadReceipLog in Flowbill.c (ER260_China\EOSCLCD) :         case VATLOG://jdb2018-07-31 增加免税流水打印
+LoadReceipLog in Flowbill.c (ER260_China\EOSCLCD) : 		case ZEROLOG://jdb2018-07-31 增加零税流水打印
+flowbill.h (ER260_China\EOSCLCD) line 72 : #define  VATLOG			28		//jdb2018-07-19 VAT Log
+flowbill.h (ER260_China\EOSCLCD) line 73 : #define  ZEROLOG		29		//jdb2018-07-19 ZERO Log
+flowbill.h (ER260_China\EOSCLCD) line 82 : #define  LOGTYPEMAX  	29      //jdb2018-07-19 增加了免税、零税流水
+flowbill.h (ER260_China\EOSCLCD) line 131 : //jdb2018-07-19 增加免税流水
+flowbill.h (ER260_China\EOSCLCD) line 139 : //jdb2018-07-19 增加l零税流水
+FLOWREC in flowbill.h (ER260_China\EOSCLCD) :     struct CDC_VAT			 CDC_Vat;				//jdb2018-07-19 VAT record
+FLOWREC in flowbill.h (ER260_China\EOSCLCD) :     struct CDC_ZERO			 CDC_Zero;				//jdb2018-07-19 ZERO record
+General.c (ER260_China\EOSCLCD) line 60 : 	if (ApplVar.BufCC && !ApplVar.FNetAmt) //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 64 : 		return 0x01;//jdb2018-05-22
+General.c (ER260_China\EOSCLCD) line 72 : 		return 0x02;//jdb2018-05-22 为零返回0x02
+General.c (ER260_China\EOSCLCD) line 107 :     if (ApplVar.BufCC && !ApplVar.BufCG) //jdb2018-03-28 GRAND 不清零
+General.c (ER260_China\EOSCLCD) line 130 : 		if(ApplVar.BufCG){ //jdb2018-03-28 NEW GRAND = ZERO
+General.c (ER260_China\EOSCLCD) line 138 : 		if(ApplVar.BufCG){ //jdb2018-03-28 OLD GRAND + NEW GRAND
+General.c (ER260_China\EOSCLCD) line 148 : 		if(ApplVar.BufCG){ //jdb2018-03-28 NET AMOUNT = ZERO
+General.c (ER260_China\EOSCLCD) line 160 : 	if (ApplVar.BufCC && !ApplVar.FNetAmt) //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 323 : 	if(TESTBIT(ApplVar.INPUTFUN, BIT1)){//jdb2018-07-27 输入无符号整型
+General.c (ER260_China\EOSCLCD) line 327 : 	else if(TESTBIT(ApplVar.INPUTFUN, BIT2)){//jdb2018-08-02 输入浮点数，无最大值限制
+General.c (ER260_China\EOSCLCD) line 351 : 	if (ApplVar.BufCC && !ApplVar.FNetAmt) //jdb2018-03-28
+General.c (ER260_China\EOSCLCD) line 358 :     	if(ApplVar.BufCG){ //jdb2018-03-28 计算GRAND
+General.c (ER260_China\EOSCLCD) line 362 : 			#else //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 364 : 				ApplVar.Total.RetQty.Sign = ApplVar.Total.Cost.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 367 : 				ApplVar.Total.RetQty.Sign = ApplVar.Total.Cost.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 370 : 			//ApplVar.Total.RetQty.Sign = ApplVar.Total.Cost.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 377 :     	}else if(ApplVar.FNetAmt){ //jdb2018-03-28
+General.c (ER260_China\EOSCLCD) line 380 : 			//if (ApplVar.Size.Cc) //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 406 : 			if(ApplVar.Report.Type == REPORT_GRANDTOTAL && ApplVar.PointerType == 0 && ApplVar.Size.Length == 26){ //jdb2018-04-13 OLD GRAND TOTAL  NOT ADD
+General.c (ER260_China\EOSCLCD) line 500 : 	if(ApplVar.PointerType == 0) //jdb2018-04-09
+General.c (ER260_China\EOSCLCD) line 502 : 		if(!TESTBIT(ApplVar.FREP, BIT5)){ //jdb2018-07-03 非折扣报表
+General.c (ER260_China\EOSCLCD) line 507 : 				Subtract(&ApplVar.Amt, &ApplVar.LastNetVatAmt); //jdb2018-04-10 VOID
+General.c (ER260_China\EOSCLCD) line 513 : 		if(ApplVar.BufCG == 1){ //jdb2018-04-26 PERIOD REPORT 不清GRAND
+General.c (ER260_China\EOSCLCD) line 523 : 	if(ApplVar.PointerType == 0){ //jdb2018-04-03
+General.c (ER260_China\EOSCLCD) line 524 : 		if(ApplVar.Size.Length == 26){ //jdb2018-04-13 为totalRecordSize ---0
+General.c (ER260_China\EOSCLCD) line 527 : 		if(!TESTBIT(ApplVar.FREP, BIT5)){ //jdb2018-07-03 非折扣报表
+General.c (ER260_China\EOSCLCD) line 529 : 				Add(&ApplVar.Amt, &ApplVar.NetVatAmt); //jdb2018-04-09
+General.c (ER260_China\EOSCLCD) line 531 : 				Add(&ApplVar.Amt, &ApplVar.LastNetVatAmt); //jdb2018-04-10
+General.c (ER260_China\EOSCLCD) line 748 : 		ApplVar.NoVatRGItems.RGNumber = 0; //jdb2018-04-08
+General.c (ER260_China\EOSCLCD) line 749 : 		//jdb2018-04-12 初始化免税相关参数
+General.c (ER260_China\EOSCLCD) line 752 : 		ApplVar.LastVatExempt = ZERO; //jdb2018-06-14
+General.c (ER260_China\EOSCLCD) line 753 : 		//jdb2018-04-24 初始化零税，免税标志
+General.c (ER260_China\EOSCLCD) line 758 : 		//jdb2018-07-03 初始化ApplVar.MixQty
+General.c (ER260_China\EOSCLCD) line 803 : 	//jdb2018-03-09
+General.c (ER260_China\EOSCLCD) line 867 : 			if(TESTBIT(ApplVar.ECRRGFLAG, BIT0)){//jdb2018-07-26 打印要退货的票据号
+General.c (ER260_China\EOSCLCD) line 874 : 			//jdb2018-03-09
+General.c (ER260_China\EOSCLCD) line 956 : 	BCD sVal2, sVal3;//jdb2018-03-09
+General.c (ER260_China\EOSCLCD) line 975 : 	//jdb2018-03-28
+General.c (ER260_China\EOSCLCD) line 978 : 	if(TESTBIT(ECRVIP.ECRVIPState, BIT4)){ //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 985 :     //jdb2018-03-09
+General.c (ER260_China\EOSCLCD) line 1026 : 		//jdb2018-03-09
+General.c (ER260_China\EOSCLCD) line 1064 : 	//if (ApplVar.Report.Type == REPORT_DEPARTMENT) //jdb2018-04-8 不打印部类
+General.c (ER260_China\EOSCLCD) line 1147 : 	if(ApplVar.Report.Type == REPORT_GRANDTOTAL || ApplVar.Report.Type == REPORT_DISCOUNT){ //jdb2018-03-29 不打印 CC QTY
+General.c (ER260_China\EOSCLCD) line 1161 : 	//if (ApplVar.Size.RetQty || ApplVar.PointerType == 0) //jdb2018-04-03
+General.c (ER260_China\EOSCLCD) line 1164 : 			if(ApplVar.Report.Type == REPORT_GRANDTOTAL){ //jdb2018-03-28 OLD GRAND TOTAL
+General.c (ER260_China\EOSCLCD) line 1166 : 				if(ApplVar.FONP == 0x01){ //jdb2018-04-24 period report 不打印
+General.c (ER260_China\EOSCLCD) line 1170 : 				Val3 = ApplVar.Total.RetQty; //jdb2018-04-02
+General.c (ER260_China\EOSCLCD) line 1180 : 			//jdb2018-03-21
+General.c (ER260_China\EOSCLCD) line 1181 : 			if(ApplVar.TaxNumber + 2 == ApplVar.AP.Tax.Number){ //jdb2018-04-27 打印零税率净销售额
+General.c (ER260_China\EOSCLCD) line 1187 : 					PrintAmt(VATEXEMPTSALES, &ApplVar.Total.Amt); //jdb2018-04-27 打印免税净销售额
+General.c (ER260_China\EOSCLCD) line 1193 : 					#else //jdb2018-03-30
+General.c (ER260_China\EOSCLCD) line 1204 : 		//else if(ApplVar.Report.Type == REPORT_GRANDTOTAL){ //jdb2018-03-28 不打印
+General.c (ER260_China\EOSCLCD) line 1207 : 		//else if (!ApplVar.Size.Disc && ApplVar.PointerType != 0) //jdb2018-04-03
+General.c (ER260_China\EOSCLCD) line 1235 : 				if (ApplVar.Report.Type == REPORT_DISCOUNT){ //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 1251 : 				if(ApplVar.Report.Type == REPORT_GRANDTOTAL){ //jdb2018-03-29
+General.c (ER260_China\EOSCLCD) line 1277 :     	if(ApplVar.Report.Type == REPORT_GRANDTOTAL){ //jdb2018-03-28 不打印
+General.c (ER260_China\EOSCLCD) line 1289 : 			//jdb2018-03-21
+General.c (ER260_China\EOSCLCD) line 1290 : 			if(ApplVar.TaxNumber + 2 == ApplVar.AP.Tax.Number){ //jdb2018-04-27 零税率不打印
+General.c (ER260_China\EOSCLCD) line 1292 : 			else if(ApplVar.TaxNumber + 1 == ApplVar.AP.Tax.Number){ //jdb2018-04-27 打印免税额
+General.c (ER260_China\EOSCLCD) line 1312 : 		else if(ApplVar.Report.Type == REPORT_GRANDTOTAL){ //jdb2018-03-28为当前Z报表净销售额
+General.c (ER260_China\EOSCLCD) line 1327 : 	if(ApplVar.Report.Type == REPORT_GRANDTOTAL && ApplVar.Size.RetQty != 0){ //jdb2018-04-03
+General.c (ER260_China\EOSCLCD) line 1330 : 		#else //jdb2018-04-02
+General.c (ER260_China\EOSCLCD) line 1332 : 			Val3.Sign = Val2.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 1335 : 			Val3.Sign = Val2.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 1338 : 		//Val3.Sign = Val2.Sign; //jdb2018-04-04 小数点一样
+General.c (ER260_China\EOSCLCD) line 1340 : 		if(ApplVar.FONP == 0x01){ //jdb2018-04-24 period report 不打印
+General.c (ER260_China\EOSCLCD) line 1342 : 			ApplVar.ENDBALANCE = Val3; //jdb2018-07-26 保存 ending balance value
+General.c (ER260_China\EOSCLCD) line 1343 : 			SETBIT(ApplVar.ECRRGFLAG, BIT1); //jdb2018-07-26 打印GRAND 标志
+Group.c (ER260_China\EOSCLCD) line 24 : 	ApplVar.FNetAmt = 0;//jdb2018-03-28
+ICCard.c (ER260_China\EOSCLCD) line 2157 : 	//jdb20180307
+ICCard.c (ER260_China\EOSCLCD) line 2169 : 		//jdb20180307
+ICCard.c (ER260_China\EOSCLCD) line 2365 : 			//jdb2018-03-08
+ICCard.c (ER260_China\EOSCLCD) line 2402 : 			//jdb2018-03-08
+ICCard.c (ER260_China\EOSCLCD) line 2460 : 				//jdb2018-03-08
+ICCard.c (ER260_China\EOSCLCD) line 2473 : 			//jdb2018-03-08
+ICcard.h (ER260_China\EOSCLCD) line 375 : //jdb2018-03-08
+ICcard.h (ER260_China\EOSCLCD) line 403 : //jdb2018-03-08
+TECRVIP in ICcard.h (ER260_China\EOSCLCD) :                         //		VIP_SCPWD,BIT4:表示SC PWD 登录	//jdb2018-03-08
+TECRVIP in ICcard.h (ER260_China\EOSCLCD) :                         //		VIP_ERR,BIT5:表示登录出错	//jdb2018-03-08
+Initappl.c (ER260_China\EOSCLCD) line 626 : //jdb2018-08-02 写入报表数据
+Initappl.c (ER260_China\EOSCLCD) line 645 : //jdb2018-08-02 写入GRANDTOTAL
+Initappl.c (ER260_China\EOSCLCD) line 655 : //jdb2018-08-02 恢复销售数据
+Initappl.c (ER260_China\EOSCLCD) line 946 : 			//InitDept(true);	DispCharXY(sCmp,i++,2); //jdb2018-05-22
+Initappl.c (ER260_China\EOSCLCD) line 1048 : 		//jdb2018-08-02 增加恢复收款机数据功能
+interface.c (STM32F103Driver\USER) line 926 : 	//Ethernet_Start();//jdb2018-03-16
+KeyBoard.c (STM32F103Driver\USER) line 84 : 	 #else //jdb2018-04-17 WISE-158D
+KeyBoard.c (STM32F103Driver\USER) line 657 : 	//jdb2018-03-16
+KeyBoard.c (STM32F103Driver\USER) line 678 : 	//jdb2018-03-16
+king.h (ER260_China\EOSCLCD) line 94 : //jdb2018-08-09 FX330打印机
+king.h (ER260_China\EOSCLCD) line 166 : //#define APPL	10     //jdb2018-07-20 西班牙语
+king.h (ER260_China\EOSCLCD) line 307 : #define RECNUM	4 //jdb2018-07-26 99999999
+king.h (ER260_China\EOSCLCD) line 308 : #define RETNUM	4 //jdb2018-07-16 99999999
+king.h (ER260_China\EOSCLCD) line 388 : extern UINT64  HexToLong64(BYTE  *p, BYTE BcdBytes);//jdb2018-03-09
+king.h (ER260_China\EOSCLCD) line 473 : #define KEYDESMAX	    48  //jdb2018-03-08
+king.h (ER260_China\EOSCLCD) line 475 : #define KEYDESMAX	    41 //jdb2018-03-08
+Kp.c (ER260_China\EOSCLCD) line 727 :     	//jdb2018-05-02 只检测打印机存在或缺纸两种状态
+Kp.c (ER260_China\EOSCLCD) line 737 :         CheckError(0); //jdb2018-05-02 不报警和显示
+Kp.c (ER260_China\EOSCLCD) line 750 :     	#ifdef FX330//jdb2018-08-09 FX330打印机
+Kp.c (ER260_China\EOSCLCD) line 751 : 		ApplVar.ErrorNumber = 0;//jdb2018-08-09 错误序号清零
+Kp.c (ER260_China\EOSCLCD) line 768 :         	#ifdef FX330 //jdb2018-08-09 FX330打印机
+Kp.c (ER260_China\EOSCLCD) line 791 : 				#ifdef FX330//jdb2018-08-09 FX330打印机查询状态命令
+Kp.c (ER260_China\EOSCLCD) line 792 : 				ApplVar.ErrorNumber = 0;//jdb2018-08-09 错误序号清零
+Kp.c (ER260_China\EOSCLCD) line 805 :             	#ifdef FX330//jdb2018-08-09 FX330打印机
+Kp.c (ER260_China\EOSCLCD) line 829 :                 CheckError(0); //jdb2018-05-02 重新发送检测命令检测打印机状态不需要显示和报警
+Kp.c (ER260_China\EOSCLCD) line 842 : 				#ifdef FX330 //jdb2018-08-09 FX330打印机
+Kp.c (ER260_China\EOSCLCD) line 843 : 				ApplVar.ErrorNumber = 0;//jdb2018-08-09 错误序号清零
+Kp.c (ER260_China\EOSCLCD) line 856 :             	#ifdef FX330 //jdb2018-08-09 FX330打印机
+Kp.c (ER260_China\EOSCLCD) line 880 : 				#if 1 //jdb2018-08-06 打印机无纸
+Kp.c (ER260_China\EOSCLCD) line 886 :                 //CheckError(0); //jdb2018-05-02 重新发送检测命令检测打印机状态不需要显示和报警
+main in Main.c (ER260_China\EOSCLCD) : 	//jdb2018-03-16
+main in Main.c (ER260_China\EOSCLCD) : 	Ethernet_Start(ApplVar.IP.IPAddress[0],ApplVar.IP.IPAddress[1],ApplVar.IP.IPAddress[2],ApplVar.IP.IPAddress[3]);//jdb2018-03-16
+main in Main.c (ER260_China\EOSCLCD) : 		UART_Computer();//jdb2018-08-14 增加串口通讯
+TestChangePointMust in Main.c (ER260_China\EOSCLCD) :             ApplVar.Key.Code!=SCLOGIN && //jdb2018-03-08
+TestChangePointMust in Main.c (ER260_China\EOSCLCD) :             ApplVar.Key.Code!=PWDLOGIN && //jdb2018-03-08
+TestChangePointMust in Main.c (ER260_China\EOSCLCD) : 			ApplVar.Key.Code!=VATEXEMPT && //jdb2018-03-20
+ProcessKey in Main.c (ER260_China\EOSCLCD) : 			if(ApplVar.Key.Code == SUB || ApplVar.Key.Code == SUB1){//jdb2018-04-03 reset
+ProcessKey in Main.c (ER260_China\EOSCLCD) : 	#if 0 //jdb2018-06-27 关闭浏览销售数据功能【开启固定折扣功能】
+Menu.c (ER260_China\EOSCLCD) line 364 :             MaxNum40=40,//jdb2018-03-22
+Menu.c (ER260_China\EOSCLCD) line 405 :     { SETTAX    ,(*ReadTax),    (char*)ApplVar.Tax.Name,    (WORD*)&ApplVar.TaxNumber,      (WORD*)&MaxNum6,0,0},  //jdb2018-04-18 最后两种税不用配置【零税、免税】
+Menu.c (ER260_China\EOSCLCD) line 416 : #else //jdb2018-03-22 增加到40行
+ListItems in Menu.c (ER260_China\EOSCLCD) :                     UART_Computer();//jdb2018-08-20
+Menu.h (ER260_China\EOSCLCD) line 78 : #define SIZENAME    43 //jdb2018-03-23
+Message.h (ER260_China\EOSCLCD) line 34 : #define ORRECEIPT 0 //jdb2018-07-27 0 SI 1 OR
+Message.h (ER260_China\EOSCLCD) line 36 : //#include "MessageSP.h" //jdb2018-07-20 西班牙语
+MessageEN_260.h (ER260_China\EOSCLCD) line 4 : //jdb2018-07-20 新增信息
+MessageEN_260.h (ER260_China\EOSCLCD) line 31 : #define TRTITELE "OFFICIAL RECEIPT" //jdb2018-07-26
+MessageEN_260.h (ER260_China\EOSCLCD) line 32 : #define RECNUMPRE "OR" //jdb2018-07-26
+MessageEN_260.h (ER260_China\EOSCLCD) line 37 : #define RETNUMPRE "J" //jdb2018-07-31 退货票据号前缀
+MessageEN_260.h (ER260_China\EOSCLCD) line 42 : #define RECOVRECPARAM "RECOV ECR PARAM"//jdb2018-08-02 恢复票据参数
+MessageEN_260.h (ER260_China\EOSCLCD) line 939 : //jdb2018-03-08
+MessageEN_260.h (ER260_China\EOSCLCD) line 959 : //jdb2018-03-08
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 4 : //jdb2018-07-20 新增信息
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 31 : #define TRTITELE "RECIBO OFICIAL" //jdb2018-07-26
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 32 : #define RECNUMPRE "OR" //jdb2018-07-26
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 37 : #define RETNUMPRE "J" //jdb2018-07-31 退货票据号前缀
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 939 : //jdb2018-03-08
+MessageEN_260_M.h (ER260_China\EOSCLCD) line 959 : //jdb2018-03-08
+MessageEN_D21.h (ER260_China\EOSCLCD) line 4 : //jdb2018-07-20 ????
+MessageEN_D21.h (ER260_China\EOSCLCD) line 31 : #define TRTITELE "OFFICIAL RECEIPT" //jdb2018-07-26
+MessageEN_D21.h (ER260_China\EOSCLCD) line 32 : #define RECNUMPRE "OR" //jdb2018-07-26
+MessageEN_D21.h (ER260_China\EOSCLCD) line 37 : #define RETNUMPRE "J" //jdb2018-07-31 ???????
+MessageEN_D21.h (ER260_China\EOSCLCD) line 42 : #define RECOVRECPARAM "RECOV ECR PARAM"//jdb2018-08-02 ??????
+MessageEN_D21.h (ER260_China\EOSCLCD) line 44 : //jdb2018-03-08
+MessageEN_D21.h (ER260_China\EOSCLCD) line 47 : //jdb2018-03-08
+MessageEN_P32.h (ER260_China\EOSCLCD) line 4 : //jdb2018-07-26 退货时增加打印部分
+MessageEN_P32.h (ER260_China\EOSCLCD) line 16 : #define REFNUM                 "REF#"  //jdb2018-07-26 退货单号REF#
+MessageEN_P32.h (ER260_China\EOSCLCD) line 17 : #define TERMINALREPORT "TERMINAL REPORT" //jdb2018-07-27
+MessageEN_P32.h (ER260_China\EOSCLCD) line 99 : //jdb2018-03-20
+MessageEN_P32.h (ER260_China\EOSCLCD) line 102 : //jdb2018-04-03
+MessageEN_P32_M.h (ER260_China\EOSCLCD) line 4 : //jdb2018-07-26 退货时增加打印部分
+MessageEN_P32_M.h (ER260_China\EOSCLCD) line 16 : #define REFNUM                 "REF#"  //jdb2018-07-26 退货单号REF#
+MessageEN_P32_M.h (ER260_China\EOSCLCD) line 17 : #define TERMINALREPORT "INFORME FINAL" //jdb2018-07-27                                                   
+MessageEN_P32_M.h (ER260_China\EOSCLCD) line 99 : //jdb2018-03-20
+MessageEN_P32_M.h (ER260_China\EOSCLCD) line 102 : //jdb2018-04-03
+Plu.c (ER260_China\EOSCLCD) line 100 : //jdb2018-04-10
+Plu.c (ER260_China\EOSCLCD) line 243 : //jdb2018-06-14
+Plu.c (ER260_China\EOSCLCD) line 471 : 				#if 1 //jdb2018-06-14
+Plu.c (ER260_China\EOSCLCD) line 647 : 						memcpy(ApplVar.Price.Value, ApplVar.Plu.Price[0], ApplVar.AP.Plu.PriceSize);//jdb2018-08-02 获取单价
+Plu.c (ER260_China\EOSCLCD) line 679 : 					//jdb2018-07-03 不加入折扣报表
+Print.c (ER260_China\EOSCLCD) line 823 : 		#else //jdb2018-03-23 修改为40行
+Print.c (ER260_China\EOSCLCD) line 839 : 			#else //jdb2018-03-26
+Print.c (ER260_China\EOSCLCD) line 846 : 		//jdb2018-07-26 add transaction title
+Print.c (ER260_China\EOSCLCD) line 874 : 	BCD temp, temp1;//jdb2018-07-27 用于票据+1计算
+Print.c (ER260_China\EOSCLCD) line 881 : 	//jdb2018-07-26 add receipt number prefix
+Print.c (ER260_China\EOSCLCD) line 933 :             if(ApplVar.CentralLock == XX || ApplVar.CentralLock == ZZ){//jdb2018-07-27    X Z报表加入打印票据单号区间
+Print.c (ER260_China\EOSCLCD) line 940 : 				memcpy(temp1.Value, ApplVar.ZReceiptNumber, RECNUM);//jdb2018-08-01 保存ZReceiptNumber
+Print.c (ER260_China\EOSCLCD) line 950 : 				if(ApplVar.CentralLock == XX)//jdb2018-08-01 X报表恢复ZReceiptNumber
+Print.c (ER260_China\EOSCLCD) line 952 : 				else//jdb2018-08-01 只有Z报表才重新计算ZReceiptNumber
+Print.c (ER260_China\EOSCLCD) line 954 : 				#else//jdb2018-08-14 只有Z报表PLU报表打印完后才重新计算ZReceiptNumber
+Print.c (ER260_China\EOSCLCD) line 962 :             else if(TESTBIT(ApplVar.ECRRGFLAG, BIT0)){ //jdb2018-07-26 退货
+Print.c (ER260_China\EOSCLCD) line 966 : 				GetReceiptNumber(SysBuf +  PRTLEN -11); //jdb2018-07-26 增加到8个数字+2(OR)
+Print.c (ER260_China\EOSCLCD) line 1187 : 				#else //jdb2018-03-23 增加到40行
+Print.c (ER260_China\EOSCLCD) line 1205 : 						#else //jdb2018-03-26
+Print.c (ER260_China\EOSCLCD) line 1217 : 				//jdb2018-07-26 退货时增加打印
+Print.c (ER260_China\EOSCLCD) line 1226 : 				else//jdb2018-08-01 每张票据尾都增加
+Program.c (ER260_China\EOSCLCD) line 1442 : 			Appl_ProgNumber = HeaderMax; //jdb2018-03-23
+Program.c (ER260_China\EOSCLCD) line 1445 : 	//jdb2018-03-23
+Program.c (ER260_China\EOSCLCD) line 1468 : 	if (Appl_ProgNumber == HeaderMax) //jdb2018-03-23
+Program.c (ER260_China\EOSCLCD) line 1501 : 	}else if(Appl_ProgNumber < HeaderMax){//jdb2018-03-22 票头支持到40行
+Program.c (ER260_China\EOSCLCD) line 1539 : 			Appl_ProgNumber = TrailerMax; //jdb2018-03-23
+Program.c (ER260_China\EOSCLCD) line 1542 : 	//jdb2018-03-22 增加到40行
+Program.c (ER260_China\EOSCLCD) line 1555 : 		#else //jdb2018-03-26
+Program.c (ER260_China\EOSCLCD) line 1565 : 	if (Appl_ProgNumber == TrailerMax) //jdb2018-03-22 增加到40行
+Program.c (ER260_China\EOSCLCD) line 1598 : 	}else if(Appl_ProgNumber < TrailerMax){//jdb2018-03-22 票尾支持到40行
+Program.c (ER260_China\EOSCLCD) line 1603 : 		#else //jdb2018-03-26
+Program.c (ER260_China\EOSCLCD) line 3266 : 			if(sIdx == 0x0e) //jdb2018-07-12 输入店铺名
+Program.c (ER260_China\EOSCLCD) line 3278 : 			if(sIdx == 0x0e) //jdb2018-07-12 输入店铺名 字长10
+Program.c (ER260_China\EOSCLCD) line 3285 : 			if(sIdx == 0x0e) //jdb2018-07-12 保存店铺名
+Report.c (ER260_China\EOSCLCD) line 15 : 	//if (ApplVar.Report.Type == REPORT_DEPARTMENT) //jdb2018-04-8 不打印部类
+Report.c (ER260_China\EOSCLCD) line 66 : 	//return; //jdb2018-03-29 部类不打印
+Report.c (ER260_China\EOSCLCD) line 253 : 	#else //jdb2018-03-29 不打印序号
+Report.c (ER260_China\EOSCLCD) line 323 : 	#else //jdb2018-03-29 不打印序号
+Report.c (ER260_China\EOSCLCD) line 336 : 		memset(SysBuf, ' ', sizeof(SysBuf));//jdb2018-08-01 不打印序号
+Report.c (ER260_China\EOSCLCD) line 406 : 	#else //jdb2018-03-29 不打印序号
+Report.c (ER260_China\EOSCLCD) line 407 : 	//jdb2018-08-09 打印SC PWD名字
+Report.c (ER260_China\EOSCLCD) line 436 :     	//jdb2018-03-21
+Report.c (ER260_China\EOSCLCD) line 442 : 			#else //jdb2018-03-29 打印空行
+Report.c (ER260_China\EOSCLCD) line 455 : 			#else //jdb2018-03-29 不打印序号
+Report.c (ER260_China\EOSCLCD) line 662 : 	//if (ApplVar.Report.Type == REPORT_DEPARTMENT) //jdb2018-03-29 不打印部类
+Report.c (ER260_China\EOSCLCD) line 752 :     	CheckPrinter(3);//jdb2018-06-20 等待打印机应答
+Report.c (ER260_China\EOSCLCD) line 758 :             if (ApplVar.Report.Type!=0 || ApplVar.Report.Period!=0 || (TESTBIT(DBLHIPRN,BIT6) == 0)){ //jdb2018-04-02
+Report.c (ER260_China\EOSCLCD) line 759 : 				if(ApplVar.Report.Type != REPORT_GRANDTOTAL){//jdb2018-03-22 不清除Grand Total
+Report.c (ER260_China\EOSCLCD) line 762 : 					ApplVar.BufCG = 1; //jdb2018-03-28
+Report.c (ER260_China\EOSCLCD) line 767 :     					ApplVar.PointerType = 0; //jdb2018-04-03
+Report.c (ER260_China\EOSCLCD) line 773 :             }else if(TESTBIT(DBLHIPRN,BIT6)){ //jdb2018-04-02 清除Grand Total
+Report.c (ER260_China\EOSCLCD) line 961 : 			if(ApplVar.FReport == Z && ApplVar.Report.Type == REPORT_GRANDTOTAL && TESTBIT(DBLHIPRN,BIT6)==0 && ApplVar.Size.RetQty != 0 && ApplVar.FONP != 0x01){ //jdb2018-04-08
+Report.c (ER260_China\EOSCLCD) line 972 :             else if(ApplVar.FReport == Z){ //jdb2018-04-12 其他报表清零
+Report.c (ER260_China\EOSCLCD) line 976 :             if (ApplVar.Report.Type!=0 || ApplVar.Report.Period!=0 || (TESTBIT(DBLHIPRN,BIT6)==0)){ //jdb2018-04-02
+Report.c (ER260_China\EOSCLCD) line 977 : 				if(ApplVar.Report.Type != REPORT_GRANDTOTAL){//jdb2018-03-22 不清除Grand Total
+Report.c (ER260_China\EOSCLCD) line 982 : 						ApplVar.BufCG = 1; //jdb2018-03-28
+Report.c (ER260_China\EOSCLCD) line 987 : 							ApplVar.PointerType = 0; //jdb2018-04-03
+Report.c (ER260_China\EOSCLCD) line 996 : 			else if(TESTBIT(DBLHIPRN,BIT6)){ //jdb2018-04-02 清除Grand Total
+Report.c (ER260_China\EOSCLCD) line 1005 : 	if(ApplVar.Report.Type == REPORT_DISCOUNT && CheckNotZero(&ApplVar.DiscAmtTotal)){ //jdb2018-03-30 增加打印DISC总计
+Report.c (ER260_China\EOSCLCD) line 1526 : 		if(repnum == 1 && ApplVar.FReport==Z){//jdb2018-07-27 Change Title Daily Report-Z to TERMINAL REPORT
+Report.c (ER260_China\EOSCLCD) line 1637 : 				MemSet(ApplVar.ReturnNumber, RETNUM, 0);//jdb2018-07-26
+Report2.c (ER260_China\EOSCLCD) line 94 : 	//if (ApplVar.Report.Type == REPORT_DEPARTMENT) //jdb2018-04-8 不打印部类
+Report2.c (ER260_China\EOSCLCD) line 180 : 	//jdb2018-07-26 打印ENDING BALANCE
+Report2.c (ER260_China\EOSCLCD) line 181 : 	//jdb2018-08-01 只有Z报表打印
+Report2.c (ER260_China\EOSCLCD) line 194 : 		if (ApplVar.FReport == Z && ApplVar.ReportNumber == 1)//jdb2018-07-27 只有Z日报表打印Z-COUNT
+Report2.c (ER260_China\EOSCLCD) line 207 : 		if (ApplVar.FReport == Z && ApplVar.ReportNumber == 1)//jdb2018-07-27 只有Z日报表打印Z-COUNT
+Report2.c (ER260_China\EOSCLCD) line 312 : 	MemSet(ApplVar.ReturnNumber, RETNUM, 0);//jdb2018-07-26
+Report2.c (ER260_China\EOSCLCD) line 400 : 				#if 0 //jdb2018-06-13 不需要周报表
+Report2.c (ER260_China\EOSCLCD) line 401 : 				if(idx == 0x02){ //jdb2018-05-02 period report 不打印old grand total 和 new grand total
+Report2.c (ER260_China\EOSCLCD) line 494 : 				#if 0 //jdb2018-06-13 不需要周报表
+Report2.c (ER260_China\EOSCLCD) line 495 : 				if(idx == 0x02){ //jdb2018-04-24 period report 不打印old grand total 和 new grand total
+Report2.c (ER260_China\EOSCLCD) line 502 : 					if(ApplVar.ReportNumber != 4)//jdb2018-07-27 收款员日报表不打印
+stm32f10x_it.c (STM32F103Driver\USER) line 418 :   		#if 0 //jdb2018-04-23 采用轮询方式
+stm32f10x_it.c (STM32F103Driver\USER) line 419 : 		CH395GlobalInterrupt();//jdb2018-03-16
+Tax.c (ER260_China\EOSCLCD) line 64 : 	if(tax == 0x0){ //jdb2018-05-03 记录零税销售额
+Tax.c (ER260_China\EOSCLCD) line 66 : 		if (TESTBIT(ApplVar.FZV, BIT3) && (ApplVar.FVoid || ApplVar.FCorr)) //jdb2018-05-03 为按了免税或零税键后取消更正交易
+Tax.c (ER260_China\EOSCLCD) line 68 : 			//Add(&ApplVar.LessVatAmt, &ApplVar.Amt); //jdb2018-05-03 免税或零税毛销售额减去Amt;
+Tax.c (ER260_China\EOSCLCD) line 69 : 			Add(&ApplVar.ZEROLessVatAmt, &ApplVar.Amt); //jdb2018-05-03 免税或零税毛销售额减去Amt;
+Tax.c (ER260_China\EOSCLCD) line 148 : 	BCD LessVat, sVal2, sVal3, sVal4;//jdb2018-03-09
+Tax.c (ER260_China\EOSCLCD) line 149 : 	BYTE FVAMOUNT = 0; //jdb-05-02 关联了税打印标志
+Tax.c (ER260_China\EOSCLCD) line 161 : 	if(type == 6){ //jdb2018-04-09
+Tax.c (ER260_China\EOSCLCD) line 166 : 			Add(&ApplVar.LessVatAmt, &ApplVar.Amt); //jdb2018-04-27 免税或零税毛销售额减去Amt;
+Tax.c (ER260_China\EOSCLCD) line 170 : 			if(TESTBIT(ApplVar.FZV, BIT0)){ //jdb2018-07-03 免税
+Tax.c (ER260_China\EOSCLCD) line 174 : 			else if(TESTBIT(ApplVar.FZV, BIT1)){ //jdb2018-07-03 零税
+Tax.c (ER260_China\EOSCLCD) line 180 : 		//VOID jdb2018-04-10
+Tax.c (ER260_China\EOSCLCD) line 182 : 			Add(&ApplVar.LessVatAmt, &ApplVar.Amt); //jdb2018-04-27 免税或零税毛销售额减去Amt;
+Tax.c (ER260_China\EOSCLCD) line 187 : 			if(TESTBIT(ApplVar.FZV, BIT0)){ //jdb2018-07-03 免税
+Tax.c (ER260_China\EOSCLCD) line 191 : 			else if(TESTBIT(ApplVar.FZV, BIT1)){ //jdb2018-07-03 零税
+Tax.c (ER260_China\EOSCLCD) line 200 : 	//jdb2018-03-19
+Tax.c (ER260_China\EOSCLCD) line 203 : 			sVal1 = ApplVar.TaxItem[ApplVar.AP.Tax.Number - 2]; //jdb2018-04-18 保存零税率销售额
+Tax.c (ER260_China\EOSCLCD) line 204 : 			sVal2 = ApplVar.TaxItem[ApplVar.AP.Tax.Number - 1]; //jdb2018-04-03
+Tax.c (ER260_China\EOSCLCD) line 206 : 			ApplVar.TaxItem[ApplVar.AP.Tax.Number - 2] = sVal1; //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 208 : 			sVal1 = ApplVar.TaxItem[ApplVar.AP.Tax.Number - 1]; //jdb2018-04-24 保存免税率销售额
+Tax.c (ER260_China\EOSCLCD) line 211 : 			ApplVar.TaxItem[ApplVar.AP.Tax.Number - 1] = sVal1; //jdb2018-04-24 恢复免税率销售额
+Tax.c (ER260_China\EOSCLCD) line 215 : 		if(ApplVar.FReVat){ //jdb2018-04-12 退货操作
+Tax.c (ER260_China\EOSCLCD) line 221 : 			Add(&ApplVar.TaxItem[ApplVar.AP.Tax.Number - 1], &sVal2); //jdb2018-04-03
+Tax.c (ER260_China\EOSCLCD) line 238 : 			if(!TESTBIT(ApplVar.FZV, BIT4)) //jdb2018-05-02 没有打印 VATABLE VATAMOUNT 打印零
+Tax.c (ER260_China\EOSCLCD) line 263 : 				ApplVar.LastVatExempt = sVal2; //jdb2018-06-14 保存这次的值
+Tax.c (ER260_China\EOSCLCD) line 271 : 				//jdb2018-07-26 取消打印
+Tax.c (ER260_China\EOSCLCD) line 274 : 				if(CheckNotZero(&ApplVar.ZEROAMOUNT)) //jdb2018-05-03 没有关联税也加入报表
+Tax.c (ER260_China\EOSCLCD) line 279 : 				//jdb2018-07-19 写入免税流水
+Tax.c (ER260_China\EOSCLCD) line 296 : 				if(CheckNotZero(&ApplVar.ZEROAMOUNT)) //jdb2018-05-03 没有关联税也加入报表
+Tax.c (ER260_China\EOSCLCD) line 302 : 				//jdb2018-07-19 写入零税流水
+Tax.c (ER260_China\EOSCLCD) line 318 : #if 1 //jdb2018-04-03
+Tax.c (ER260_China\EOSCLCD) line 376 : 				ApplVar.DiscAmt = ZERO; //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 377 : 				//jdb2018-03-12
+Tax.c (ER260_China\EOSCLCD) line 390 : 						//if (!TESTBIT(ApplVar.Tax.Options, BIT0) && ApplVar.TaxNumber != 6) //jdb2018-04-18 第7种税为价内税零税率
+Tax.c (ER260_China\EOSCLCD) line 398 : 						//if(type == 2) //jdb2018-03-28
+Tax.c (ER260_China\EOSCLCD) line 399 : 						//Add(&ApplVar.VatAmtTotal, &ApplVar.Cost); //jdb2018-03-28
+Tax.c (ER260_China\EOSCLCD) line 401 : 						if(type == 2) //jdb2018-03-27
+Tax.c (ER260_China\EOSCLCD) line 436 : 								//Add(&ApplVar.VatAmtTotal, &ApplVar.Cost); //jdb2018-03-28
+Tax.c (ER260_China\EOSCLCD) line 438 : 								//jdb2018-03-09
+Tax.c (ER260_China\EOSCLCD) line 449 : 										Add(&ApplVar.LessVatAmt, &ApplVar.Amt); //jdb2018-04-27 报表加入免税毛销售额
+Tax.c (ER260_China\EOSCLCD) line 462 : 						//if (!TESTBIT(ECRVIP.ECRVIPState, BIT4) && (!type || type == 4)) 	//jdb2018-03-19
+Tax.c (ER260_China\EOSCLCD) line 463 : 						//if(ApplVar.TaxNumber != 6) //jdb2018-04-24 第七种税率为零税率销售 不写入报表s
+Tax.c (ER260_China\EOSCLCD) line 466 : 							if(ApplVar.TaxNumber == 6 || ApplVar.TaxNumber == 7){ //jdb2018-04-27 加入免税、零税总毛销售
+Tax.c (ER260_China\EOSCLCD) line 470 : 							SETBIT(ApplVar.FZV, BIT5); //jdb2018-05-03 增加税率报表标志
+Tax.c (ER260_China\EOSCLCD) line 480 : 				//if (CheckNotZero(&ApplVar.Amt) && type == 2) //jdb20180320
+Tax.c (ER260_China\EOSCLCD) line 481 : 				if ((CheckNotZero(&ApplVar.Amt) || ApplVar.TaxNumber == 6) && type == 2) //jdb2018-04-18 第7种税率为零税率
+Tax.c (ER260_China\EOSCLCD) line 484 : 						//if (TESTBIT(ApplVar.Tax.Options,BIT1)  || ApplVar.TaxNumber == 6) //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 490 : 								//|| ApplVar.TaxNumber == 6 //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 493 : 							SETBIT(ApplVar.FZV, BIT4); //jdb2018-05-02 打印标志
+Tax.c (ER260_China\EOSCLCD) line 494 : 							PrintLine('.'); //jdb2018-04-27 打印隔行
+Tax.c (ER260_China\EOSCLCD) line 498 : 								if(ApplVar.FZV == 0x00){ //jdb2018-04-24 没有零税销售或免税销售也打印
+Tax.c (ER260_China\EOSCLCD) line 510 : #if 0 //jdb2018-04-27 不打印小计
+Tax.c (ER260_China\EOSCLCD) line 511 : 								if(TESTBIT(ECRVIP.ECRVIPState, BIT4)){ //jdb2018-03-30 不打印小计
+Tax.c (ER260_China\EOSCLCD) line 534 : 								//if (TESTBIT(ApplVar.Tax.Options, BIT4) || ApplVar.TaxNumber == 6) //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 541 : #else //jdb2018-04-25 不打印税种名称
+Tax.c (ER260_China\EOSCLCD) line 544 : 								if(TESTBIT(ApplVar.FZV, BIT3)){ //jdb2018-04-27 免税或零税销售
+Tax.c (ER260_China\EOSCLCD) line 548 : 									if(ApplVar.TaxNumber == 6){ //jdb2018-04-18
+Tax.c (ER260_China\EOSCLCD) line 563 : #if 1 //jdb2018-04-25 不打印税种名称
+Tax.c (ER260_China\EOSCLCD) line 572 : 							if(TESTBIT(ApplVar.FZV, BIT3)){ //jdb2018-04-27 免税或零税销售
+Tax.c (ER260_China\EOSCLCD) line 576 : 								if(ApplVar.TaxNumber == 6){ //jdb2018-04-18 不打印
+Tax.c (ER260_China\EOSCLCD) line 583 : 							if (!printsub) //jdb2018-04-27 放在VATABLE VAT后打印
+Tax.c (ER260_China\EOSCLCD) line 585 : 								if(!(TESTBIT(ApplVar.FZV, BIT0) || TESTBIT(ApplVar.FZV, BIT1))){ //jdb2018-04-24 没有零税销售或免税销售也打印
+Tax.c (ER260_China\EOSCLCD) line 597 : #if 0 //jdb2018-04-27 不打印小计
+Tax.c (ER260_China\EOSCLCD) line 598 : 								if(TESTBIT(ECRVIP.ECRVIPState, BIT4)){ //jdb2018-03-30 不打印小计
+Tax.c (ER260_China\EOSCLCD) line 612 : 							//jdb2018-03-09
+Tax.c (ER260_China\EOSCLCD) line 615 : #if 0 //jdb2018-04-25 不打印税种名称
+Tax.c (ER260_China\EOSCLCD) line 623 : 								//PrintAmt(ProgLineMes, &LessVat); //jdb2018-04-03 不打印
+Tax.c (ER260_China\EOSCLCD) line 649 : 			if(type == 2 && !TESTBIT(ApplVar.FZV, BIT4) && !(TESTBIT(ApplVar.FZV, BIT0) || TESTBIT(ApplVar.FZV, BIT1))) //jdb2018-05-02 测试是否有打印VATABLE VAT ZERO VAT
+Tax.c (ER260_China\EOSCLCD) line 683 : 	//if (!TESTBIT(ApplVar.FZV, BIT5) && CheckNotZero(&ApplVar.LessVatAmt) && (!type || type == 4)){	 //jdb2018-05-03 零税销售加入报表
+Tax.c (ER260_China\EOSCLCD) line 684 : 	if (CheckNotZero(&ApplVar.ZEROLessVatAmt) && (!type || type == 4)){	 //jdb2018-05-03 零税销售加入报表
+Tax.c (ER260_China\EOSCLCD) line 712 : 	//return; //jdb2018-06-08 小计折扣不进行税的计算，付款后统一计算
+Tax.c (ER260_China\EOSCLCD) line 741 : 		d1 = ApplVar.SubTotal;//jdb2018-08-02 小计总额
+Tax.c (ER260_China\EOSCLCD) line 758 : 						#if 0 //jdb2018-08-02 小计金额折扣
+Tender.c (ER260_China\EOSCLCD) line 602 : 				    PrintAmt(ApplVar.Tend.Name, &ApplVar.Entry);//jdb2018-06-20 collect 改为 cash
+Tender.c (ER260_China\EOSCLCD) line 794 :             //jdb2018-03-09
+Tender.c (ER260_China\EOSCLCD) line 830 : 			//jdb2018-03-28 增加净销售额（减税后）
+Tender.c (ER260_China\EOSCLCD) line 834 : 			ApplVar.VatAmtTotal = ZERO; //jdb2018-04-03
+Tender.c (ER260_China\EOSCLCD) line 835 : 			ApplVar.FNetAmt = 1; //jdb2018-03-28
+Tender.c (ER260_China\EOSCLCD) line 840 : 			ApplVar.FReVat = 0; //jdb2018-04-12 按付款键后 退货免税标志置零
+Tender.c (ER260_China\EOSCLCD) line 875 : 	RESETBIT(ApplVar.ECRRGFLAG, BIT0);//jdb2018-07-26 退货标志置零
